@@ -1,5 +1,5 @@
 {
-  "name": "qaTestDestination",
+  "name": "",
   "url": "",
   "method": "post",
   "skip_tls_verify": false,
