@@ -1,0 +1,10 @@
+{
+  "name": "auto_playwright_destination_14Dov",
+  "url": "DEMO",
+  "method": "post",
+  "skip_tls_verify": false,
+  "headers": {},
+  "template": "auto_playwright_template_14Dov",
+  "emails": [],
+  "type": "http"
+}

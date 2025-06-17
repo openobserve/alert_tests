@@ -1,0 +1,51 @@
+{
+  "name": "Automation_Alert_3h7u5",
+  "org_id": "default",
+  "stream_type": "logs",
+  "stream_name": "auto_playwright_stream",
+  "is_real_time": true,
+  "query_condition": {
+    "type": "custom",
+    "conditions": {
+      "or": [
+        {
+          "column": "job",
+          "operator": "contains",
+          "value": "test",
+          "ignore_case": false
+        }
+      ]
+    },
+    "sql": null,
+    "promql": null,
+    "promql_condition": null,
+    "aggregation": null,
+    "vrl_function": null,
+    "search_event_type": null,
+    "multi_time_range": []
+  },
+  "trigger_condition": {
+    "period": 10,
+    "operator": ">=",
+    "threshold": 3,
+    "frequency": 1,
+    "cron": "",
+    "frequency_type": "minutes",
+    "silence": 0,
+    "timezone": "UTC",
+    "tolerance_in_secs": null,
+    "align_time": true
+  },
+  "destinations": [
+    "auto_playwright_destination_3h7u5"
+  ],
+  "context_attributes": {},
+  "row_template": "",
+  "description": "",
+  "enabled": true,
+  "tz_offset": 0,
+  "last_triggered_at": 0,
+  "last_satisfied_at": null,
+  "owner": "shnath@openobserve.ai",
+  "last_edited_by": "shnath@openobserve.ai"
+}
