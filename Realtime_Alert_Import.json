@@ -1,5 +1,5 @@
 {
-  "name": "Automation_Alert_3h7u5",
+  "name": "",
   "org_id": "default",
   "stream_type": "logs",
   "stream_name": "auto_playwright_stream",
@@ -37,7 +37,7 @@
     "align_time": true
   },
   "destinations": [
-    "auto_playwright_destination_3h7u5"
+    ""
   ],
   "context_attributes": {},
   "row_template": "",
